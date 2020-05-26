@@ -77,6 +77,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_HW_DISK_ENCRYPTION := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
+# Crypt
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
+
 # TWRP Configuration
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 RECOVERY_SDCARD_ON_DATA := true
